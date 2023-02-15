@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+header,footer,nav.my_obj {
+    background-color: rgb(41, 91, 255);
+    width: 100%;
+    max-height: 20vh;
+    box-sizing: border-box;
+}
+header .container *, header .container button .navbar-toggler-icon *, header .container *:hover {
+    color: white;
+}
+.my_obj > ul li a.nav-link.active, button.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.571);
+}
+h1.navbar-brand.m-0.section-title.pe-5 {
+    font-size: 200%;
+}
+.qtd * {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin: 3%;
+    margin-left: 0;
+}
+.col-4 > * {
+    margin: 10%;
+}
+.card-body img {
+    width: 100%;
+}
+.card {
+    max-width: 25vw;
+    max-height: 80vh;
+    height: 100%;
+    width: 100%;
+}
+.label-pre {
+    display: flex;
+    height: 100%;
+}
+.jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+div.tot {
+    color: white;
+    font-size: 30px;
+}
