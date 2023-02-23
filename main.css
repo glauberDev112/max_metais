@@ -52,3 +52,6 @@ div.tot {
     color: white;
     font-size: 30px;
 }
+.container_system {
+    display: none;
+} 
