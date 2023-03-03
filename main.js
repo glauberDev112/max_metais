@@ -9,7 +9,8 @@ $(document).ready(function setup() {
         let presum = []
         let nota = []
         let pro = dds.forEach(function fun (item) {
-            const nome = item.querySelector('.card-header h4').innerHTML
+            
+            const nome = item.querySelector('header.card-header h4').innerText
             const label = item.querySelector('.card-footer')
             const pre_b = parseFloat(label.querySelector('.label-pre .pre').innerText)
             const pre = parseFloat(label.querySelector('.qtd .input_tam').value)

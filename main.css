@@ -19,7 +19,7 @@ header .container *, header .container button .navbar-toggler-icon *, header .co
     background-color: rgba(255, 255, 255, 0.571);
 }
 h1.navbar-brand.m-0.section-title.pe-5 {
-    font-size: 200%;
+    font-size: 100%;
 }
 .qtd * {
     width: 100%;
@@ -52,6 +52,30 @@ div.tot {
     color: white;
     font-size: 30px;
 }
+
 .container_system {
     display: none;
-} 
+}
+#mensagen {
+    height: 300px;
+    width: 400px;
+    resize: none;
+}
+div.col-md-6.col-sm-12 {
+    margin-bottom: 10px;
+}
+.obj {
+    padding-bottom: 380px;
+    padding-top: 30px;
+}
+input {
+    min-width: 100px;
+}
+.card.produto {
+    min-width: 300px;
+    max-width: 21.35vw;
+    width: 100%;
+}
+.my_obj {
+    width: 100vw;
+}
