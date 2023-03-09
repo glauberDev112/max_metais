@@ -79,3 +79,7 @@ input {
 .my_obj {
     width: 100vw;
 }
+.fixView {
+    max-width: 100vw;
+    overflow: hidden;
+}
