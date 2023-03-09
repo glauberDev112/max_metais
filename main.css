@@ -83,3 +83,6 @@ input {
     max-width: 100vw;
     overflow: hidden;
 }
+.fixView-carousel {
+    height: 696px;
+}
